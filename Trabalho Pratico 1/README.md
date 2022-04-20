@@ -9,3 +9,17 @@ Dados de entrada:
 ```
 
 É preciso imprimir a tabela formatada no console, e o cabeçalho deve corresponder  às  variáveis  que  forem  dadas como  entrada.  Ou  seja, se  as  variáveis  informadas  forem  p  e  q,  o  cabeçalho  deve  imprimir todas as proposições utilizando p e q como base.  
+
+```
+Saída:
+::::::::::::::::::: TABELA VERDADE ::::::::::::::::::
+-----------------------------------------------------
+| Var1| Var2|Var1^Var2|Var1vVar2|Var1→Var2|Var1↔Var2|
+-----------------------------------------------------
+|  V  |  V  |    V    |    V    |    V    |    V    |
+|  V  |  F  |    F    |    V    |    F    |    F    |
+|  F  |  V  |    F    |    V    |    V    |    F    |
+|  F  |  F  |    F    |    F    |    V    |    V    |
+-----------------------------------------------------
+       
+```
