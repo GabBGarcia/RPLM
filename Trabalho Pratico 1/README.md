@@ -24,6 +24,8 @@ Escolha da preposição a ser exibida:
 
 É preciso imprimir a tabela formatada no console, e o cabeçalho deve corresponder  às  variáveis  que  forem  dadas como  entrada.  Ou  seja, se  as  variáveis  informadas  forem  p  e  q,  o  cabeçalho  deve  imprimir todas as proposições utilizando p e q como base.  
 
+Ao final o programa mostra o resultado da tabela verdade
+
 ```
 Saída:
 
