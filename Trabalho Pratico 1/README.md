@@ -7,7 +7,7 @@ Dados de entrada:
 - Variável 1:
 - Variável 2:
 
-Escolha da preposição as er exibida:
+Escolha da preposição a ser exibida:
 
 ::::: PREPOSIÇÕES :::::
 |   0 - Conjunção     |
