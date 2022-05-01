@@ -1,6 +1,8 @@
 # Trabalho Prático 1 - Tabela Verdade
 
 Crie um programa que recebe como entrada duas variáveis e imprime no  console  a  tabela-verdade  correspondente.  O programa  deve  ser feito  na  linguagem  Java  ou  C++  e  deve  utilizar  os  conceitos  de orientação a objetos.  
+   
+     Trabalho desenvolvido em Java
 
 ```
 Dados de entrada:
