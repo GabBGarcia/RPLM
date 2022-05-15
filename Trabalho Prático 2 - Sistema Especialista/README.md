@@ -33,18 +33,18 @@ O sistema dará como resposta os seguintes destinos:
 
 ## Regras
 
-- Qual o dia? 
+- Dia 
   - segunda-feira, terça-feira, quarta-feira, quinta-feira, sexta-feira, sábado, domingo
 
-- Qual o objetivo do passeio?
+- Objetivo do passeio
   - Se divertir com a família, Se divertir com os amigos, Passeio individual, Conhecer a cidade, Encontro, Sair da rotina
 
-- Qual a categoria desejada?
+- Categoria
   - Atrativo Turístico, Museu, Parque, Bosque, Viagem local, Diversão
 
-- Qual o tipo de ambiente?
+- Tipo de ambiente
   - Aberto, Fechado
 
-- Qual o custo?
+- Custo
   - Pago, Gratuito
 
