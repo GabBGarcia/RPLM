@@ -31,7 +31,7 @@ O sistema dará como resposta os seguintes destinos:
 -	Curitiba Paintball e Airsoft 
 -	Campo Base Ginásio de Escalada 
 
-## Regras
+#### Opções de entrada
 
 - Dia do passeio
   - segunda-feira, terça-feira, quarta-feira, quinta-feira, sexta-feira, sábado, domingo
