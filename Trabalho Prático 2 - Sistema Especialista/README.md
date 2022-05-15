@@ -1,6 +1,6 @@
 # Sistema Especialista
 
-#### Integrantes:
+#### Trabalho desenvolvido por:
 - Gabrielle Batista Garcia
 - Thiago Aoyama
 
