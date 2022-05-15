@@ -30,3 +30,39 @@ O sistema dará como resposta os seguintes destinos:
 -	RA Kart Curitiba
 -	Curitiba Paintball e Airsoft 
 -	Campo Base Ginásio de Escalada 
+
+## Regras
+
+- Qual o dia?
+  - segunda-feira
+  - terça-feira
+  - quarta-feira
+  - quinta-feira
+  - sexta-feira
+  - sábado
+  - domingo
+
+- Qual o objetivo do passeio?
+  - Se divertir com a família
+  - Se divertir com os amigos
+  - Passeio individual
+  - Conhecer a cidade
+  - Encontro 
+  - Sair da rotina
+
+- Qual a categoria desejada?
+  - Atrativo Turístico
+  - Museu
+  - Parque
+  - Bosque
+  - Viagem local
+  - Diversão
+
+- Qual o tipo de ambiente?
+  - Aberto
+  - Fechado
+
+- Qual o custo?
+  - Pago
+  - Gratuito
+
