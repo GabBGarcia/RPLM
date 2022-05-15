@@ -34,19 +34,19 @@ O sistema dará como resposta os seguintes destinos:
 #### Opções de entrada
 
 - Dia do passeio
-  - segunda-feira, terça-feira, quarta-feira, quinta-feira, sexta-feira, sábado, domingo
+  - segunda-feira, terça-feira, quarta-feira, quinta-feira, sexta-feira, sábado ou domingo
 
 - Objetivo do passeio
-  - Se divertir com a família, Se divertir com os amigos, Passeio individual, Conhecer a cidade, Encontro, Sair da rotina
+  - Se divertir com a família, Se divertir com os amigos, Passeio individual, Conhecer a cidade, Encontro ou Sair da rotina
 
 - Categoria
-  - Atrativo Turístico, Museu, Parque, Bosque, Viagem local, Diversão
+  - Atrativo Turístico, Museu, Parque, Bosque, Viagem local ou Diversão
 
 - Tipo de ambiente
-  - Aberto, Fechado
+  - Aberto ou Fechado
 
 - Custo
-  - Pago, Gratuito
+  - Pago ou Gratuito
 
 ## Regras de Inferência
 
