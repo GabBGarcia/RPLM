@@ -33,14 +33,14 @@ O sistema dará como resposta os seguintes destinos:
 
 ## Regras
 
-- Qual o dia?
+- Qual o dia? [
   - segunda-feira
   - terça-feira
   - quarta-feira
   - quinta-feira
   - sexta-feira
   - sábado
-  - domingo
+  - domingo]
 
 - Qual o objetivo do passeio?
   - Se divertir com a família
