@@ -50,13 +50,13 @@ O sistema dará como resposta os seguintes destinos:
 
 ## Regras de Inferência
 
-- SE segunda OU terça OU quarta OU quinta OU sexta OU sábado OU domingo E gratuito E atrativo turístico E aberto E se divertir com a família OU encontro OU conhecer a cidade, ENTÃO sugerir ir ao Jardim Botânico.
+- SE segunda OU terça OU quarta OU quinta OU sexta OU sábado OU domingo E gratuito E atrativo turístico E aberto E se divertir com a família OU se divertir com os amigos OU encontro OU conhecer a cidade, ENTÃO sugerir ir ao Jardim Botânico.
 
 - SE terça OU quarta OU quinta OU sexta OU sábado OU domingo E pago E museu E fechado E passeio individual, ENTÃO sugerir ir ao Museu Oscar Niemeyer.
 
 - SE terça OU quarta OU quinta OU sexta OU sábado OU domingo E pago E atrativo turístico E fechado E passeio individual OU se divertir com a família, ENTÃO sugerir ir a Torre Panorâmica. 
 
-- SE segunda OU terça OU quarta OU quinta OU sexta OU sábado OU domingo E gratuito E parque E aberto E se divertir com a família OU encontro, ENTÃO sugerir ir ao Parque Tanguá.
+- SE segunda OU terça OU quarta OU quinta OU sexta OU sábado OU domingo E gratuito E parque E aberto E se divertir com a família OU se divertir com os amigos OU encontro, ENTÃO sugerir ir ao Parque Tanguá.
 
 - SE segunda OU terça OU quarta OU quinta OU sexta OU sábado OU domingo E gratuito E bosque E aberto E se divertir com a família, ENTÃO sugerir ir ao Bosque Zaninelli.
 
