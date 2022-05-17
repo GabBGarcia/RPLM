@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estilo.css">
+
+  </head>
+
+  <body>
+
+    <div class="divheader">
+      SISTEMA ESPECIALISTA
+    </div>
+
+    <div class="divback">
+
+      <div class="divmsg">
+        Capital do estado do Paraná, Curitiba é considerada por muitos como uma das cidades mais desenvolvidas da América Latina, sendo bem fácil de ser percorrida. A cidade oferece inúmeras atrações e pontos turísticos.
+      </div>
+
+    </div>
+
+    <div class="container">	
+      <div class="row">
+        <div class="two-thirds column">
+          <br>
+          <div id="progress_bar"></div>
+          <form class="questions_box">
+
+            <div id="question-1">
+              <h2>O que fazer em Curitiba</h2>
+              <h3>Qual dia pretende realizar o passeio?</h3>
+              <br>
+              <input id="question-1-answer-a" type="radio" name="favelang" value=1> Segunda-feira <br>
+              <input id="question-1-answer-b" type="radio" name="favelang" value=2> Terça-feira <br>
+              <input id="question-1-answer-c" type="radio" name="favelang" value=3> Quarta-feira <br>
+              <input id="question-1-answer-c" type="radio" name="favelang" value=4> Quinta-feira <br>
+              <input id="question-1-answer-c" type="radio" name="favelang" value=5> Sexta-feira <br>
+              <input id="question-1-answer-c" type="radio" name="favelang" value=6> Sábado <br>
+              <input id="question-1-answer-c" type="radio" name="favelang" value=7> Domingo <br>
+              <div id="submit1" class="button">PRÓXIMO</div>
+              <div class="clearfix"></div>
+            </div>
+
+          <div id="question-2">
+            <h2>O que fazer em Curitiba</h2>
+            <h3>Qual o objetivo do passeio?</h3>
+            <br>
+            <input id="question-2-answer-a" type="radio" name="favelang" value="1"> Se divertir com a família <br>
+            <input id="question-2-answer-b" type="radio" name="favelang" value="2"> Se divertir com os amigos <br>
+            <input id="question-2-answer-c" type="radio" name="favelang" value="3"> Passeio individual <br>
+            <input id="question-2-answer-c" type="radio" name="favelang" value="4"> Conhecer a cidade <br>
+            <input id="question-2-answer-c" type="radio" name="favelang" value="5"> Um Encontro <br>
+            <input id="question-2-answer-c" type="radio" name="favelang" value="6"> Sair da rotina <br>
+            <div id="submit2" class="button">PRÓXIMO</div>
+            <div class="clearfix"></div>
+          </div>
+          
+          <div id="question-3">	
+            <h2>O que fazer em Curitiba</h2>
+            <h3>Qual a categoria desejada?</h3>
+            <br>
+            <input id="question-3-answer-a" type="radio" name="favelang" value="1"> Atrativo Turístico <br>
+            <input id="question-3-answer-b" type="radio" name="favelang" value="2"> Museu <br>
+            <input id="question-3-answer-c" type="radio" name="favelang" value="3"> Parque <br>
+            <input id="question-3-answer-a" type="radio" name="favelang" value="4"> Bosque <br>
+            <input id="question-3-answer-a" type="radio" name="favelang" value="5"> Viagem <br>
+            <input id="question-3-answer-a" type="radio" name="favelang" value="6"> Diversão <br>
+            <div id="submit3" class="button">PRÓXIMO</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-4">
+              <h2>O que fazer em Curitiba</h2>
+              <h3>Qual o tipo de ambiente?</h3>
+              <br>
+              <input id="question-4-answer-a" type="radio" name="favelang" value="1"> Aberto <br>
+              <input id="question-4-answer-b" type="radio" name="favelang" value="2"> Fechado <br>
+              <div id="submit4" class="button">PRÓXIMO</div>
+              <div class="clearfix"></div>
+            </div>
+
+            <div id="question-5">
+              <h2>O que fazer em Curitiba</h2>
+              <h3>Qual o custo desejado com o passeio?</h3>
+              <br>
+              <input id="question-5-answer-a" type="radio" name="favelang" value="1"> Pago <br>
+              <input id="question-5-answer-b" type="radio" name="favelang" value="2"> Gratuito <br>
+              <div id="submit5" class="button">VER RESULTADO</div>
+              <div class="clearfix"></div>
+            </div>
+
+          <div id="question-6"> 
+            <h3> Seu destino para o próximo passeio é: </h3>
+            <br>
+            <h4 id=printscoreinfo></h4>
+            <br>
+            <div onclick="mudaPaginaIn()" class="button" >REFAZER</div>
+            <div class="clearfix"></div>
+          </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+  </body>
+
+</html>
