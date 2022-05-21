@@ -27,9 +27,7 @@ O sistema dará como resposta os seguintes destinos:
 -	Strike 7
 -	Impulso Park
 -	Puzzle Room: Escape Game
--	RA Kart Curitiba
 -	Curitiba Paintball e Airsoft 
--	Campo Base Ginásio de Escalada 
 
 #### Opções de entrada
 
@@ -72,8 +70,4 @@ O sistema dará como resposta os seguintes destinos:
 
 - SE segunda OU terça OU quarta OU quinta OU sexta OU sábado OU domingo E pago E diversão E fechado E se divertir com os amigos, ENTÃO sugerir ir ao Puzzle Room Escape Game.
 
-- SE terça OU quarta OU quinta OU sexta OU sábado OU domingo E pago E diversão E aberto E se divertir com os amigos, ENTÃO sugerir ir ao RA Kart Curitiba.
-
 - SE terça OU quarta OU quinta OU sexta OU sábado OU domingo E pago E diversão E aberto E sair da rotina OU se divertir com a família, ENTÃO sugerir ir ao Curitiba Paintball e Airsoft.
-
-- SE segunda OU terça OU quarta OU quinta OU sexta OU sábado E pago E diversão E fechado E sair da rotina OU passeio individual, ENTÃO sugerir ir ao Campo Base Ginásio de Escalada.

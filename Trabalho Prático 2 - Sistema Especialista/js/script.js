@@ -52,9 +52,7 @@ function getInfoBasedOnScore(){
                 }
             }
         }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
+    } 
     if(answers.question1 == 2 || 4 || 5 || 6 || 7){
         if(answers.question2 == 3){
             if(answers.question3 == 2){
@@ -65,9 +63,7 @@ function getInfoBasedOnScore(){
                 }
             }
         }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
+    } 
     if(answers.question1 == 3){
         if(answers.question2 == 3){
             if(answers.question3 == 2){
@@ -78,9 +74,7 @@ function getInfoBasedOnScore(){
                 }
             }
         }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
+    } 
     if(answers.question1 == 2 || 3 || 4 || 5 || 6 || 7){
         if(answers.question2 == 1 || 3){
             if(answers.question3 == 1){
@@ -91,9 +85,7 @@ function getInfoBasedOnScore(){
                 }
             }
         }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
+    } 
     if(answers.question1 == 1 || 2 || 3 || 4 || 5 || 6 || 7){
         if(answers.question2 == 1 || 2 || 5){
             if(answers.question3 == 3){
@@ -104,9 +96,7 @@ function getInfoBasedOnScore(){
                 }
             }
         }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
+    } 
     if(answers.question1 == 1 || 2 || 3 || 4 || 5 || 6 || 7){
         if(answers.question2 == 1){
             if(answers.question3 == 4){
@@ -117,9 +107,7 @@ function getInfoBasedOnScore(){
                 }
             }
         }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
+    } 
     if(answers.question1 == 2 || 3 || 4 || 5 || 6 || 7){
         if(answers.question2 == 4){
             if(answers.question3 == 1){
@@ -130,9 +118,7 @@ function getInfoBasedOnScore(){
                 }
             }
         }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
+    } 
     if(answers.question1 == 1 || 2 || 3 || 5 || 7){
         if(answers.question2 == 3){
             if(answers.question3 == 2){
@@ -143,9 +129,7 @@ function getInfoBasedOnScore(){
                 }
             }
         }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
+    } 
     if(answers.question1 == 5 || 6 || 7){
         if(answers.question2 == 3 || 4){
             if(answers.question3 == 5){
@@ -156,9 +140,7 @@ function getInfoBasedOnScore(){
                 }
             }
         }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
+    } 
     if(answers.question1 == 2 || 3 || 4 || 5 || 6 || 7){
         if(answers.question2 == 5){
             if(answers.question3 == 6){
@@ -168,10 +150,8 @@ function getInfoBasedOnScore(){
                     }
                 }
             }
-        }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
+        } 
+    } 
     if(answers.question1 == 2 || 3 || 4 || 5 || 6 || 7){
         if(answers.question2 == 1){
             if(answers.question3 == 6){
@@ -182,9 +162,7 @@ function getInfoBasedOnScore(){
                 }
             }
         }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
+    } 
     if(answers.question1 == 1 || 2 || 3 || 4 || 5 || 6 || 7){
         if(answers.question2 == 2){
             if(answers.question3 == 6){
@@ -195,22 +173,7 @@ function getInfoBasedOnScore(){
                 }
             }
         }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
-    if(answers.question1 == 2 || 3 || 4 || 5 || 6 || 7){
-        if(answers.question2 == 2){
-            if(answers.question3 == 6){
-                if(answers.question4 == 1){
-                    if(answers.question5 == 1){
-                        var choice = "RA KART CURITIBA: A RA Kart oferece tanto pista coberta como descoberta, ainda mais, o kartódromo possui uma estrutura completa com sala de briefing e equipamentos, lanchonete e até torre de controle! Além disso, para quem não quiser correr de kart, o kartódromo tem uma sala de jogos com mesas de sinuca, fliperama e pebolim. Localização: Rodovia, BR-116, 15560 - Novo Mundo. Horário de funcionamento: De Terça à Sexta - Das 17h às 22h. Sábado e Domingo - Das 14h às 22h.";
-                    }
-                }
-            }
-        }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
+    }  
     if(answers.question1 == 2 || 3 || 4 || 5 || 6 || 7){
         if(answers.question2 == 1 || 6){
             if(answers.question3 == 6){
@@ -221,20 +184,8 @@ function getInfoBasedOnScore(){
                 }
             }
         }  
-    } else {
-        var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
-    }
-    if(answers.question1 == 1 || 2 || 3 || 4 || 5 || 6){
-        if(answers.question2 == 3 || 6){
-            if(answers.question3 == 6){
-                if(answers.question4 == 2){
-                    if(answers.question5 == 1){
-                        var choice = "CAMPO BASE GINÁSIO DE ESCALADA: Com uma estrutura de aproximadamente 700 m², sendo 500 m² de paredes escaláveis, as modalidades de escalada vão desde caminhos fáceis para quem nunca escalou até vias mais difíceis para escaladores mais experientes. Localização: Ginásio - Av. Pres. Kennedy, 35 - Rebouças. Horário de funcionamento: De Segunda à Sexta - Das 7h às 22h. Sábado - Das 10h às 19h. Diária: R$ 40,00.";
-                    }
-                }
-            }
-        }  
-    } else {
+    } 
+    else {
         var choice = "Não foi possível encontrar um lugar que adeque-se a suas seleções. Tente outras opções!";
     }
         
