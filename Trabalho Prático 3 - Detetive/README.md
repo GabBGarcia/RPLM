@@ -1,11 +1,2 @@
-# The-Lost-Memories
+# Trabalho Prático 3 - Detetive
 
-- instuctions:
-\
-Arrow Keys to move, 
-\
-space to investigate.
-
-- credits:
-\
-All code by me.
