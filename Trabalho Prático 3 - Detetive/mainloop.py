@@ -8,8 +8,7 @@ win = pygame.display.set_mode((840, 480))
 
 pygame.display.set_caption("Detective")
 
-icon = pygame.transform.scale(pygame.image.load(
-    'Game_spirite\\CG\\Inicial.png'), (840, 480))
+icon = pygame.transform.scale(pygame.image.load('Game_spirite\\CG\\Inicial.png'), (840, 480))
 icon.set_colorkey(icon.get_at((0, 0)))
 win.blit(icon, (0, 0))
 
@@ -391,6 +390,7 @@ while True:
             pygame.time.delay(delay_time)
 
             win.fill((0, 0, 0))
+            spirite5.winblit()
 
             if i == 0:
                 print_on_screen(talk[i], WHITE)
@@ -413,6 +413,7 @@ while True:
             pygame.time.delay(delay_time)
 
             win.fill((0, 0, 0))
+            spirite5.winblit()
 
             if i == 0:
                 print_on_screen(talk[i], WHITE)
@@ -528,11 +529,13 @@ while True:
         textsurface_seven = font.render(
             'Se Inosuk estava na sala do café limpando mesa, então Totoro é o assasino do Chewbacca;', False, WHITE)
         textsurface_eight = font.render(
-            'Se Tobi não estava na administração comprando bebidas, então Venom não é um dos assassinos de Chewbacca;', False, WHITE)
-        textsurface_nine = font.render(
             'Se Iron-Man estava na administração passando o cartão, então Venom é um dos assassinos de Chewbacca;', False, WHITE)
+        textsurface_nine = font.render(
+            'Se Spider-Man estava na sala de controle observando as câmeras, então Inosuk estava na sala do café limpando mesa;', False, WHITE)
         textsurface_ten = font.render(
             'Se Inosuk estava na sala do café limpando mesa, então Sem Rosto matou Chewbacca;', False, WHITE)
+        textsurface_eleven = font.render(
+            'Inosuk não estava na sala do café limpando mesa ou Sonic estava na sala do café limpando mesa;', False, WHITE)
         textsurface_version2 = font_2.render(
             'Press "a" para ver todas as pistas...', False, GREEN)
         win.blit(textsurface_intro, (20, 50))
@@ -541,6 +544,7 @@ while True:
         win.blit(textsurface_eight, (15, 200))
         win.blit(textsurface_nine, (15, 250))
         win.blit(textsurface_ten, (15, 300))
+        win.blit(textsurface_eleven, (15, 350))
         win.blit(textsurface_version2, (65, 450))
         pygame.display.update()
 
@@ -586,11 +590,13 @@ while True:
         textsurface_seven = font.render(
             'Se Inosuk estava na sala do café limpando mesa, então Totoro é o assasino do Chewbacca;', False, WHITE)
         textsurface_eight = font.render(
-            'Se Tobi não estava na administração comprando bebidas, então Venom não é um dos assassinos de Chewbacca;', False, WHITE)
-        textsurface_nine = font.render(
             'Se Iron-Man estava na administração passando o cartão, então Venom é um dos assassinos de Chewbacca;', False, WHITE)
+        textsurface_nine = font.render(
+            'Se Spider-Man estava na sala de controle observando as câmeras, então Inosuk estava na sala do café limpando mesa;', False, WHITE)
         textsurface_ten = font.render(
             'Se Inosuk estava na sala do café limpando mesa, então Sem Rosto matou Chewbacca;', False, WHITE)
+        textsurface_eleven = font.render(
+            'Inosuk não estava na sala do café limpando mesa ou Sonic estava na sala do café limpando mesa;', False, WHITE)
         textsurface_version2 = font_2.render(
             'Press "s" para saber quem são os assassinos...', False, GREEN)
         win.blit(textsurface_intro, (20, 30))
@@ -604,6 +610,7 @@ while True:
         win.blit(textsurface_eight, (15, 270))
         win.blit(textsurface_nine, (15, 300))
         win.blit(textsurface_ten, (15, 330))
+        win.blit(textsurface_eleven, (15, 360))
         win.blit(textsurface_version2, (65, 450))
         pygame.display.update()
 
