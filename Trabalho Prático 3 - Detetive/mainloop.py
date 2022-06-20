@@ -8,7 +8,7 @@ win = pygame.display.set_mode((840, 480))
 
 pygame.display.set_caption("Detective")
 
-icon = pygame.transform.scale(pygame.image.load('Game_spirite\\CG\\Inicial.png'), (840, 480))
+icon = pygame.transform.scale(pygame.image.load('data\\Inicial.png'), (840, 480))
 icon.set_colorkey(icon.get_at((0, 0)))
 win.blit(icon, (0, 0))
 
@@ -26,7 +26,7 @@ def dialog(string, color):
     font = pygame.font.SysFont('Comic Sans MS', 20)
     textsurface = font.render(string, False, color)
     text_canvas = pygame.transform.scale(pygame.image.load(
-        'Game_spirite\\Text_canvas\\Moldura.png'), (1000, 200))
+        'data\\Moldura.png'), (1000, 200))
     text_canvas.set_colorkey(text_canvas.get_at((0, 0)))
     win.blit(text_canvas, (-80, 300))
     win.blit(textsurface, (70, 360))
@@ -74,16 +74,16 @@ class game_player(object):
             for j in range(3):
                 if i == 0:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\nave.png').convert(), (300, 250)))
+                        'data\\nave.png').convert(), (300, 250)))
                 elif i == 1:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\nave.png').convert(), (300, 250)))
+                        'data\\nave.png').convert(), (300, 250)))
                 elif i == 2:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\nave.png').convert(), (300, 250)))
+                        'data\\nave.png').convert(), (300, 250)))
                 elif i == 3:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\nave.png').convert(), (300, 250)))
+                        'data\\nave.png').convert(), (300, 250)))
             self.picture.append(toAppend)
         for i in range(4):
             for j in range(3):
@@ -107,16 +107,16 @@ class game_player2(object):
             for j in range(3):
                 if i == 0:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\dentronave.jpg').convert(), (840, 480)))
+                        'data\\dentronave.jpg').convert(), (840, 480)))
                 elif i == 1:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\dentronave.jpg').convert(), (840, 480)))
+                        'data\\dentronave.jpg').convert(), (840, 480)))
                 elif i == 2:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\dentronave.jpg').convert(), (840, 480)))
+                        'data\\dentronave.jpg').convert(), (840, 480)))
                 elif i == 3:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\dentronave.jpg').convert(), (840, 480)))
+                        'data\\dentronave.jpg').convert(), (840, 480)))
             self.picture.append(toAppend)
         for i in range(4):
             for j in range(3):
@@ -140,16 +140,16 @@ class game_player3(object):
             for j in range(3):
                 if i == 0:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\naveterra.jpg').convert(), (840, 480)))
+                        'data\\naveterra.jpg').convert(), (840, 480)))
                 elif i == 1:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\naveterra.jpg').convert(), (840, 480)))
+                        'data\\naveterra.jpg').convert(), (840, 480)))
                 elif i == 2:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\naveterra.jpg').convert(), (840, 480)))
+                        'data\\naveterra.jpg').convert(), (840, 480)))
                 elif i == 3:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\naveterra.jpg').convert(), (840, 480)))
+                        'data\\naveterra.jpg').convert(), (840, 480)))
             self.picture.append(toAppend)
         for i in range(4):
             for j in range(3):
@@ -173,16 +173,16 @@ class game_player4(object):
             for j in range(3):
                 if i == 0:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\pergunta.png').convert(), (840, 480)))
+                        'data\\pergunta.png').convert(), (840, 480)))
                 elif i == 1:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\pergunta.png').convert(), (840, 480)))
+                        'data\\pergunta.png').convert(), (840, 480)))
                 elif i == 2:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\pergunta.png').convert(), (840, 480)))
+                        'data\\pergunta.png').convert(), (840, 480)))
                 elif i == 3:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\pergunta.png').convert(), (840, 480)))
+                        'data\\pergunta.png').convert(), (840, 480)))
             self.picture.append(toAppend)
         for i in range(4):
             for j in range(3):
@@ -206,16 +206,16 @@ class game_player5(object):
             for j in range(3):
                 if i == 0:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\espaço.png').convert(), (840, 480)))
+                        'data\\espaço.png').convert(), (840, 480)))
                 elif i == 1:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\espaço.png').convert(), (840, 480)))
+                        'data\\espaço.png').convert(), (840, 480)))
                 elif i == 2:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\espaço.png').convert(), (840, 480)))
+                        'data\\espaço.png').convert(), (840, 480)))
                 elif i == 3:
                     toAppend.append(pygame.transform.scale(pygame.image.load(
-                        'Game_spirite\\Spirite\\espaço.png').convert(), (840, 480)))
+                        'data\\espaço.png').convert(), (840, 480)))
             self.picture.append(toAppend)
         for i in range(4):
             for j in range(3):
@@ -235,25 +235,25 @@ for i in range(0, 4):
     toAppend = []
     for j in range(0, 4):
         toAppend.append(game_map(j*500, i*500, pygame.transform.scale(
-            pygame.image.load('Game_spirite\\CG\\espaço.png').convert(), (840, 480))))
+            pygame.image.load('data\\espaço.png').convert(), (840, 480))))
     maps.append(toAppend)
 
 maps_full.append(maps)
 
 maps = pygame.transform.scale(pygame.image.load(
-    'Game_spirite\\Map\\espaço.png').convert(), (300, 750))
+    'data\\espaço.png').convert(), (300, 750))
 maps.set_colorkey(maps.get_at((0, 0)))
 maps = game_map(0, 0, maps)
 
 maps_full.append(maps)
 
-spirite = game_player('Game_spirite\\CG\\espaço.png', 840, 480, 0)
-spirite2 = game_player2('Game_spirite\\CG\\dentronave.jpg', 840, 480, 0)
-spirite3 = game_player3('Game_spirite\\CG\\naveterra.jpg', 840, 480, 0)
-spirite4 = game_player4('Game_spirite\\CG\\pergunta.png', 840, 480, 0)
-spirite5 = game_player5('Game_spirite\\CG\\espaço.png', 840, 480, 0)
+spirite = game_player('data\\espaço.png', 840, 480, 0)
+spirite2 = game_player2('data\\dentronave.jpg', 840, 480, 0)
+spirite3 = game_player3('data\\naveterra.jpg', 840, 480, 0)
+spirite4 = game_player4('data\\pergunta.png', 840, 480, 0)
+spirite5 = game_player5('data\\espaço.png', 840, 480, 0)
 
-pygame.mixer.music.load('Game_music\\song18.mp3')
+pygame.mixer.music.load('data\\song18.mp3')
 pygame.mixer.music.play(-1)
 
 plot = 1
@@ -390,7 +390,6 @@ while True:
             pygame.time.delay(delay_time)
 
             win.fill((0, 0, 0))
-            spirite5.winblit()
 
             if i == 0:
                 print_on_screen(talk[i], WHITE)
@@ -413,7 +412,6 @@ while True:
             pygame.time.delay(delay_time)
 
             win.fill((0, 0, 0))
-            spirite5.winblit()
 
             if i == 0:
                 print_on_screen(talk[i], WHITE)
@@ -433,7 +431,7 @@ while True:
         plot = 9
 
     elif plot == 9:
-        pygame.mixer.music.load('Game_music\\gambit.mp3')
+        pygame.mixer.music.load('data\\gambit.mp3')
         pygame.mixer.music.play(-1)
 
         win.fill((0, 0, 0))
@@ -529,13 +527,11 @@ while True:
         textsurface_seven = font.render(
             'Se Inosuk estava na sala do café limpando mesa, então Totoro é o assasino do Chewbacca;', False, WHITE)
         textsurface_eight = font.render(
-            'Se Iron-Man estava na administração passando o cartão, então Venom é um dos assassinos de Chewbacca;', False, WHITE)
+            'Se Tobi não estava na administração comprando bebidas, então Venom não é um dos assassinos de Chewbacca;', False, WHITE)
         textsurface_nine = font.render(
-            'Se Spider-Man estava na sala de controle observando as câmeras, então Inosuk estava na sala do café limpando mesa;', False, WHITE)
+            'Se Iron-Man estava na administração passando o cartão, então Venom é um dos assassinos de Chewbacca;', False, WHITE)
         textsurface_ten = font.render(
             'Se Inosuk estava na sala do café limpando mesa, então Sem Rosto matou Chewbacca;', False, WHITE)
-        textsurface_eleven = font.render(
-            'Inosuk não estava na sala do café limpando mesa ou Sonic estava na sala do café limpando mesa;', False, WHITE)
         textsurface_version2 = font_2.render(
             'Press "a" para ver todas as pistas...', False, GREEN)
         win.blit(textsurface_intro, (20, 50))
@@ -544,7 +540,6 @@ while True:
         win.blit(textsurface_eight, (15, 200))
         win.blit(textsurface_nine, (15, 250))
         win.blit(textsurface_ten, (15, 300))
-        win.blit(textsurface_eleven, (15, 350))
         win.blit(textsurface_version2, (65, 450))
         pygame.display.update()
 
@@ -590,13 +585,11 @@ while True:
         textsurface_seven = font.render(
             'Se Inosuk estava na sala do café limpando mesa, então Totoro é o assasino do Chewbacca;', False, WHITE)
         textsurface_eight = font.render(
-            'Se Iron-Man estava na administração passando o cartão, então Venom é um dos assassinos de Chewbacca;', False, WHITE)
+            'Se Tobi não estava na administração comprando bebidas, então Venom não é um dos assassinos de Chewbacca;', False, WHITE)
         textsurface_nine = font.render(
-            'Se Spider-Man estava na sala de controle observando as câmeras, então Inosuk estava na sala do café limpando mesa;', False, WHITE)
+            'Se Iron-Man estava na administração passando o cartão, então Venom é um dos assassinos de Chewbacca;', False, WHITE)
         textsurface_ten = font.render(
             'Se Inosuk estava na sala do café limpando mesa, então Sem Rosto matou Chewbacca;', False, WHITE)
-        textsurface_eleven = font.render(
-            'Inosuk não estava na sala do café limpando mesa ou Sonic estava na sala do café limpando mesa;', False, WHITE)
         textsurface_version2 = font_2.render(
             'Press "s" para saber quem são os assassinos...', False, GREEN)
         win.blit(textsurface_intro, (20, 30))
@@ -610,7 +603,6 @@ while True:
         win.blit(textsurface_eight, (15, 270))
         win.blit(textsurface_nine, (15, 300))
         win.blit(textsurface_ten, (15, 330))
-        win.blit(textsurface_eleven, (15, 360))
         win.blit(textsurface_version2, (65, 450))
         pygame.display.update()
 
