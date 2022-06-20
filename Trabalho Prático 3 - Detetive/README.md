@@ -3,7 +3,7 @@
 #### Trabalho desenvolvido por:
 - Gabrielle Batista Garcia
 
-#### Informações
+### Informações
 
 A nave contém 10 tripulantes fantasiados, sendo essas fantasias: Tobi, Spider-Man, Inosuk, Darth Vader, Sem Rosto, Iron-Man, Venom, Chewbacca, Sonic e Totoro.
 
@@ -21,12 +21,14 @@ Locais: 12 locais diferentes dentro da nave com diferentes tarefas a serem reali
 11.	Armazenamento: esvaziar escotilha, regar plantas
 12.	Motor: ajustar potência, encher os motores
 
-#### Cenário:
+### Cenário:
 
-Você está em uma nave espacial com uma tripulação de 10 integrantes fantasiados rumo ao planeta NOME DO PLANETA para o evento NOME DO EVENTO que ocorrerá no planeta, 
-quando a nave começa a apresentar problemas e a tripulação se vê obrigada a pousar no planeta Terra e realizar o reparo, no meio da confusão ninguém notou o desaparecimento repentino de dois tripulantes. Ao término do reparo todos voltam para a nave para dar continuidade a viagem, durante o embarque dois humanos se infiltram na nave o que faz com que ninguém perceba que dois de seus companheiros desapareceram. Todos dão continuidade em suas tarefas na nave, quando você, ao entrar LOCAL NA NAVE, se depara com o corpo de um de seus companheiros, então você aciona o botão de emergência para relatar o ocorrido, os tripulantes tentam se justificar dizendo onde estavam e o que estavam fazendo.
+Você está em uma nave espacial com uma tripulação de 10 integrantes fantasiados rumo ao planeta Party para o evento Fantasy que ocorrerá no planeta, 
+quando a nave começa a apresentar problemas e a tripulação se vê obrigada a pousar no planeta Terra e realizar o reparo, no meio da confusão ninguém notou o desaparecimento repentino de dois tripulantes. Ao término do reparo todos voltam para a nave para dar continuidade a viagem, durante o embarque dois humanos se infiltram na nave o que faz com que ninguém perceba que dois de seus companheiros desapareceram. Todos dão continuidade em suas tarefas na nave, quando você, ao entrar na Elétrica, se depara com o corpo de um de seus companheiros, o Chewbacca. Então você aciona o botão de emergência para relatar o ocorrido, os tripulantes tentam se justificar dizendo onde estavam e o que estavam fazendo.
 
-#### Pistas
+- Objetivo: Descobrir quem são os dois humanos infiltrados que assassinaram Chewbacca. 
+
+### Pistas
 
 •	Chewbacca foi encontrado morto na elétrica.
 •	Tobi estava na administração comprando bebidas ou Darth Vader é cúmplice;
@@ -40,5 +42,5 @@ quando a nave começa a apresentar problemas e a tripulação se vê obrigada a 
 •	Se Spider-Man estava na sala de controle observando as câmeras, então Inosuk estava na sala do café limpando as mesas;
 •	Inosuk não estava na sala do café limpando as mesas ou Sonic estava na sala do café limpando as mesas.
 
-- Objetivo: Descobrir quem são os dois humanos infiltrados que assassinaram Chewbacca. 
+
 
