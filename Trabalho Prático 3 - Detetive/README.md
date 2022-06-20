@@ -4,7 +4,9 @@
 #### Trabalho desenvolvido por:
 - Gabrielle Batista Garcia
 
+
 O jogo foi desenvolvido com intuito de ser resolvido através de regras de inferência a partir das pistas apresentadas.
+
 
 O jogo pode ser executado através do executável que se encontra em:
 ```
