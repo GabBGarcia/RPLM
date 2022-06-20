@@ -1,7 +1,5 @@
 # Trabalho Prático 3 - Detetive
-<<<<<<< HEAD
 
-=======
 
 #### Trabalho desenvolvido por:
 - Gabrielle Batista Garcia
@@ -46,5 +44,3 @@ quando a nave começa a apresentar problemas e a tripulação se vê obrigada a 
 -	Inosuk não estava na sala do café limpando as mesas ou Sonic estava na sala do café limpando as mesas.
 
 
-
->>>>>>> 6beec5a71e235b0083767599a89fac292639e07e
