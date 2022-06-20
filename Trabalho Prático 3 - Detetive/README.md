@@ -9,12 +9,10 @@ O jogo foi desenvolvido com intuito de por meio das pistas ser resolvido atravé
 O jogo pode ser executado através do executável que se encontra em:
 ```
 build/Executável/mainloop.py
-
 ```
 ou pela IDE, para isso será necessario a instalação da biblioteca pygame através do comando:
 ```
 pip install pygame
-
 ```
 
 
@@ -48,13 +46,13 @@ quando a nave começa a apresentar problemas e a tripulação se vê obrigada a 
 -	Chewbacca foi encontrado morto na elétrica.
 -	Tobi estava na administração comprando bebidas ou Darth Vader é cúmplice;
 -	Se Tobi não estava na administração comprando bebidas, então Venom não é um dos assassinos de Chewbacca;
--	Inosuk estava na sala do café limpando as mesas ou Iron-man estava na administração fazendo checagem de exames;
--	Se Spider-Man estava na sala de controle observando as câmeras, então Sonic estava na sala do café limpando as mesas;
+-	Inosuk estava na sala do café limpando mesa ou Iron-man estava na administração fazendo checagem de exame;
+-	Se Spider-Man estava na sala de controle observando as câmeras, então Sonic estava na sala do café limpando mesa;
 -	Se Iron-Man estava na administração passando o cartão, então Sonic encontrou o corpo no salão principal;
--	Se Inosuk estava na sala do café limpando as mesas, então Totoro é o assasino do Chewbacca;
+-	Se Inosuk estava na sala do café limpando mesa, então Totoro é o assasino do Chewbacca;
 -	Se Iron-Man estava na administração passando o cartão, então Venom é um dos assassinos de Chewbacca;
--	Se Inosuk estava na sala do café limpando as mesas, então Sem Rosto matou Chewbacca;
--	Se Spider-Man estava na sala de controle observando as câmeras, então Inosuk estava na sala do café limpando as mesas;
--	Inosuk não estava na sala do café limpando as mesas ou Sonic estava na sala do café limpando as mesas.
+-	Se Inosuk estava na sala do café limpando mesa, então Sem Rosto matou Chewbacca;
+-	Se Spider-Man estava na sala de controle observando as câmeras, então Inosuk estava na sala do café limpando mesa;
+-	Inosuk não estava na sala do café limpando mesa ou Sonic estava na sala do café limpando mesa.
 
 
