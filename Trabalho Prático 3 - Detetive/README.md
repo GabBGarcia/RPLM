@@ -4,6 +4,20 @@
 #### Trabalho desenvolvido por:
 - Gabrielle Batista Garcia
 
+O jogo foi desenvolvido com intuito de por meio das pistas ser resolvido através de regras de inferência.
+
+O jogo pode ser executado através do executável que se encontra em:
+```
+build/Executável/mainloop.py
+
+```
+ou pela IDE, para isso será necessario a instalação da biblioteca pygame através do comando:
+```
+pip install pygame
+
+```
+
+
 #### Informações
 
 A nave contém 10 tripulantes fantasiados, sendo essas fantasias: Tobi, Spider-Man, Inosuk, Darth Vader, Sem Rosto, Iron-Man, Venom, Chewbacca, Sonic e Totoro.
